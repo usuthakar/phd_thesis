@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{mr-com}
+Bent~J Mackey~G, Sehrish~S.
+\newblock Introducing map-reduce to high end computing. petascale data storage.
+\newblock {\em PDSW}, 2008.
+
+\bibitem{mr-data}
+Fox~G. Ekanayake~J, Pallickara~S.
+\newblock Mapreduce for data intensive scientific analyses.
+\newblock {\em IEEE}, 2008.
+
+\bibitem{intro-hdfs}
+et~al. Attebury~G, Baranovski~A.
+\newblock Hadoop distributed file system for the grid.
+\newblock {\em IEEE}, 2009.
+
+\end{thebibliography}

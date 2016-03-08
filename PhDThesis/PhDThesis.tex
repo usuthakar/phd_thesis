@@ -1,0 +1,245 @@
+\documentclass[oneside, a4paper, 11pt, ]{report}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{braket}
+\usepackage{mathrsfs}
+\usepackage{appendix}
+\linespread{1.5}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{lineno}
+\usepackage{bbold}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{afterpage,lscape}
+\usepackage{draftwatermark}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{float}
+  \geometry{
+  a4paper,
+  total={210mm,297mm},
+  left=40mm,
+  right=15mm,
+  top=20mm,
+  bottom=20mm,
+  }
+
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+%\SetWatermarkText{DRAFT}
+%\normalfont\SetWatermarkScale{7}
+
+\title{\title} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+
+%\pagestyle{fancyplain}
+%\fancyhead[LE, RO]{}
+%\fancyhead[LE, RO]{\slshape \rightmark}
+%\fancyhead[RE, LO]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\LARGE Brunel University London}\\[0.5cm] % University name
+\includegraphics[scale=0.5]{Figures/brunelshield.png} \\[0.5cm]
+\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries A scalable datastore and analytic platform for real-time monitoring of scientific infrastructure}\\[0.3cm] 
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Uthayanath Suthakar 
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisors:} \\
+Dr. David Rayn Smith \\
+Prof. Akram Khan
+\end{flushright}
+\end{minipage}\\[2cm]
+
+\large \textit{ A dissertation submitted to Brunel University\\ in accordance with the requirements\\ for award of the degree of Doctor of Philosophy}\\[0.3cm] 
+\textit{in}\\[0.4cm]
+\textit{the Faculty of Electronic and Computer Engineering\\\ Centre for Sensors \& Instrumentation} \\
+
+\vspace*{10mm}
+{\large \today}\\[4cm]
+%\vspace*{-12mm}
+
+\end{center}
+
+\end{titlepage}
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{declaration}
+\begin{center}
+ \begin{large}
+\textbf{Declaration of Authorship}
+\end{large}
+\end{center}
+
+\noindent I, Uthayanath Suthakar, declare that the work in this dissertation was carried out in accordance with the requirements of the University's Regulations and Code of Practice for Research Degree Programmes and that it has not been submitted for any other academic award. Except where indicated by specific reference in the text, the work is the candidate's own work. Work done in collaboration with, or with the assistance of, others, is indicated as such. Any views expressed in the dissertation are those of the author.\\
+
+\begin{center}
+SIGNED: $...............................................................$  DATE: $...................................$
+
+(Signature of student)
+
+\vspace{12pt}
+\end{center}
+\null\vfill
+\end{declaration}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Quotes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+%\textit{``Real courage is when you know you're licked before you begin, but you begin anyway and see it through no matter what."}
+
+\begin{flushright}
+%Harper Lee, To Kill a Mockingbird
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+
+
+\end{abstract} 
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+The acknowledgements and the people to thank go here\ldots
+}
+\clearpage % Start a new page
+
+% Insert biography and acknowledgements code here
+
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{Publications}
+\begin{center}
+ \begin{large}
+\textbf{List of Publications}
+\end{large}
+\end{center}
+
+\noindent The following papers have been accepted / to be submitted for publication as a direct or indirect result of the research discussed in this thesis.\\
+
+\null\vfill
+\end{Publications}
+
+\clearpage
+
+\pagestyle{fancyplain}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+
+%\linenumbers
+
+%\pagestyle{fancyplain}
+\pagenumbering{arabic}
+%\setcounter{page}{1}
+
+\clearpage
+
+%\linespread{1.3} %%line spaceing 1.5
+
+%\fancyhead[le,ro]{\slshape \rightmark} %le and ro were in capitals
+%\fancyhead[lo,re]{\slshape \leftmark}
+
+%\addcontentsline{toc}{chapter}{Introduction}
+\input{Chapters/Introduction.tex}
+
+%\addcontentsline{toc}{chapter}{Review of Literature}
+\input{Chapters/LiteratureReview.tex}
+
+
+%\addcontentsline{toc}{chapter}{Monitoring WLCG with lambda-architecture}
+\input{Chapters/lambda.tex}
+
+%\addcontentsline{toc}{chapter}{Optimising lambda architecture using Apache Spark technology}
+\input{Chapters/spark.tex}
+
+%\addcontentsline{toc}{chapter}{Optimising real-time processing with built-in intelligence}
+\input{Chapters/ml.tex}
+
+
+%\addcontentsline{toc}{chapter}{Experimentation and Evaluation}
+\input{Chapters/Experimentation.tex}
+
+\addcontentsline{toc}{chapter}{Conclusions}
+\input{Chapters/Conclusions.tex}
+
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\renewcommand{\thesection}{A.\arabic{section}}
+\renewcommand\thefigure{\thesection}
+\renewcommand\thetable{\thesection}
+
+\bibliography{PhDThesis}
+\bibliographystyle{unsrt}
+
+\end{document}

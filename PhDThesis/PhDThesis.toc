@@ -1,0 +1,50 @@
+\vspace {1em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivations}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Methodology}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Major Contributions to Knowledge}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Thesis Organization}{1}{section.1.4}
+\contentsline {chapter}{\numberline {2}Review of Literature}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Architecture}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Summary}{2}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Technology}{2}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Introduction}{2}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Batch Layer}{2}{subsection.2.2.2}
+\contentsline {subsubsection}{test Introduction}{2}{section*.4}
+\contentsline {subsubsection}{Apache Hadoop- MapReduce and HDFS}{3}{section*.5}
+\contentsline {subsection}{\numberline {2.2.3}Summary}{4}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Monitoring WLCG with lambda-architecture}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}The evolution of WLCG activities monitoring}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}WLCG data activities dashboards}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Towards a new approach for data store and processing}{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The \textit {lambda} architecture}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Difference between WDT and the classic lambda use case}{7}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}The new data store and analytics platform for WLCG monitoring}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Data transport: Message Broker}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Data collection: Apache Flume}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Batch processing: Apache Hadoop}{9}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Real-time processing: Spark streaming and Esper}{9}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Archiving: HDFS}{10}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}The Dashboard Common library}{10}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}The serving layer}{10}{subsection.3.3.7}
+\contentsline {section}{\numberline {3.4}Implementation of WDT analytics on the new platform}{11}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Data representation}{12}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Performance results for WDT computation on the new platform}{13}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusion and next steps}{14}{section.3.6}
+\contentsline {chapter}{\numberline {4}Optimising lambda architecture using Apache Spark technology}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Summary}{15}{section.4.2}
+\contentsline {chapter}{\numberline {5}Exploiting data popularity to model the evolution of data management using real-time processing and Machine Learning}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Summary}{16}{section.5.2}
+\contentsline {chapter}{\numberline {6}Experimentation and Evaluation}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}Building experimental platform}{17}{section.6.2}
+\contentsline {section}{\numberline {6.3}Experimental Studies}{17}{section.6.3}
+\contentsline {section}{\numberline {6.4}Summary}{17}{section.6.4}
+\contentsline {chapter}{Conclusions}{17}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{18}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusions}{18}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{18}{section.7.2}
+\contentsline {chapter}{Appendices}{20}{section*.6}

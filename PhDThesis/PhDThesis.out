@@ -1,0 +1,47 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivations}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Methodology}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Major Contributions to Knowledge}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Thesis Organization}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Review of Literature}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Architecture}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Introduction}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Summary}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Technology}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Introduction}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Batch Layer}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Summary}{section.2.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Monitoring WLCG with lambda-architecture}{}% 14
+\BOOKMARK [1][-]{section.3.1}{The evolution of WLCG activities monitoring}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{WLCG data activities dashboards}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.2}{Towards a new approach for data store and processing}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{The lambda architecture}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{Difference between WDT and the classic lambda use case}{section.3.2}% 19
+\BOOKMARK [1][-]{section.3.3}{The new data store and analytics platform for WLCG monitoring}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Data transport: Message Broker}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{Data collection: Apache Flume}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{Batch processing: Apache Hadoop}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.4}{Real-time processing: Spark streaming and Esper}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.5}{Archiving: HDFS}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.6}{The Dashboard Common library}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.7}{The serving layer}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Implementation of WDT analytics on the new platform}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{Data representation}{section.3.4}% 29
+\BOOKMARK [1][-]{section.3.5}{Performance results for WDT computation on the new platform}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.6}{Conclusion and next steps}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Optimising lambda architecture using Apache Spark technology}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Summary}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Exploiting data popularity to model the evolution of data management using real-time processing and Machine Learning}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Summary}{chapter.5}% 37
+\BOOKMARK [0][-]{chapter.6}{Experimentation and Evaluation}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.2}{Building experimental platform}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.3}{Experimental Studies}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.4}{Summary}{chapter.6}% 42
+\BOOKMARK [0][-]{section.6.4}{Conclusions}{}% 43
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 44
+\BOOKMARK [1][-]{section.7.1}{Conclusions}{chapter.7}% 45
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 46
+\BOOKMARK [0][-]{section*.6}{Appendices}{}% 47
