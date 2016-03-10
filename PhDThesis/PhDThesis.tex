@@ -2,16 +2,19 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}}
 \usepackage{braket}
 \usepackage{mathrsfs}
 \usepackage{appendix}
 \linespread{1.5}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
 \usepackage[margin=1.1in]{geometry}
 \usepackage{lineno}
 \usepackage{bbold}
 \usepackage{epstopdf}
 \usepackage{fancyhdr}
-\usepackage{amsmath}
 \usepackage{rotating}
 \usepackage{afterpage,lscape}
 \usepackage{draftwatermark}
@@ -34,6 +37,8 @@
     linkcolor=blue,
     urlcolor=blue
 }
+
+
 
 %\SetWatermarkText{DRAFT}
 %\normalfont\SetWatermarkScale{7}
@@ -188,6 +193,7 @@ The acknowledgements and the people to thank go here\ldots
 \pagestyle{fancyplain}
 
 \setcounter{page}{1}
+\setcounter{secnumdepth}{3}
 \pagenumbering{roman}
 
 \tableofcontents
@@ -214,6 +220,8 @@ The acknowledgements and the people to thank go here\ldots
 %\addcontentsline{toc}{chapter}{Review of Literature}
 \input{Chapters/LiteratureReview.tex}
 
+%\addcontentsline{toc}{chapter}{Experimentation and Evaluation}
+\input{Chapters/DataPipe.tex}
 
 %\addcontentsline{toc}{chapter}{Monitoring WLCG with lambda-architecture}
 \input{Chapters/lambda.tex}
@@ -225,10 +233,7 @@ The acknowledgements and the people to thank go here\ldots
 \input{Chapters/ml.tex}
 
 
-%\addcontentsline{toc}{chapter}{Experimentation and Evaluation}
-\input{Chapters/Experimentation.tex}
-
-\addcontentsline{toc}{chapter}{Conclusions}
+%\addcontentsline{toc}{chapter}{Conclusions}
 \input{Chapters/Conclusions.tex}
 
 \appendix
@@ -238,6 +243,8 @@ The acknowledgements and the people to thank go here\ldots
 \renewcommand{\thesection}{A.\arabic{section}}
 \renewcommand\thefigure{\thesection}
 \renewcommand\thetable{\thesection}
+
+\section*{References}
 
 \bibliography{PhDThesis}
 \bibliographystyle{unsrt}

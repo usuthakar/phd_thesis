@@ -1,4 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{LHC5}
+CERN.
+\newblock {LHC physics data taking gets underway at new record collision energy
+  of 8TeV}.
+\newblock \url{ http://press.web.cern.ch}, 2012.
+\newblock [Online; accessed 18-12-2015].
+
+\bibitem{LHCGrid7}
+WLCG.
+\newblock {Worldwide LHC Computing Grid}.
+\newblock \url{http://wlcg.web.cern.ch}, 2012.
+\newblock [Online; accessed 20-12-2015].
 
 \bibitem{mr-com}
 Bent~J Mackey~G, Sehrish~S.
@@ -14,5 +27,139 @@ Fox~G. Ekanayake~J, Pallickara~S.
 et~al. Attebury~G, Baranovski~A.
 \newblock Hadoop distributed file system for the grid.
 \newblock {\em IEEE}, 2009.
+
+\bibitem{Verki1}
+C.~Snijders, U.~Matzat, and U.-D Reips.
+\newblock {Big Data: Big Gaps of Knowledge in the Field of Internet Science}.
+\newblock {\em International Journal of Internet Science}, 7, 1:1--5, 2012.
+
+\bibitem{Aamnitchi2}
+A.~Aamnitchi, S.~Doraimani, and G.~Garzoglio.
+\newblock {Filecules in highenergy physics: Characteristics and impact on
+  resource management}.
+\newblock {\em High Performance Distributed Computing}, pages 69--80, 2016.
+
+\bibitem{Minoli3}
+D.~Minoli.
+\newblock {\em {A Networking Approach to Grid Computing}}.
+\newblock John Wiley & Sons, Inc., 2015.
+
+\bibitem{Nicholson4}
+C.~Nicholson and et~al.
+\newblock {Dynamic data replication in LCG 2008}.
+\newblock {\em {Concurrency and Computation: Practice and Experience}}, 20,
+  11:1259--1271, 2008.
+
+\bibitem{Magnoni20}
+L.~Magnoni, U.~Suthakar, C.~Cordeiro, M.~Georgiou, J.~Andreeva, A.~Khan, and
+  {D.R Smith}.
+\newblock {Monitoring WLCG with lambda-architecture: a new scalable data store
+  and analytics platform for monitoring at petabyte scale}.
+\newblock {\em Journal of Physics: Conference Series}, 664(5):052023, 2015.
+
+\bibitem{Knobloch6}
+J.~Knobloch and L.~Robertson.
+\newblock {LHC Computing Grid:Technical Design Report-LCG-TDR-001}, 2015.
+
+\bibitem{Grim8}
+K.~Grim.
+\newblock {Tier-3 computing centers expand options for physicists}, {
+  International Science Grid This Week (iSGTW)}, 2009.
+
+\bibitem{Foster9}
+I.~Foster and C.~Kesselman.
+\newblock {\em {The Grid 2: Blueprint for a New Computing Infrastructure}}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2013.
+
+\bibitem{Foster10}
+I.~Foster, C.~Kesselman, and S.~Tuecke.
+\newblock {The anatomy of the Grid: Enabling scalable virtual organizations}.
+\newblock {\em The International Journal of High Performance Computing
+  Applications}, 15, 3:200--222, 2011.
+
+\bibitem{Laure11}
+E.~Laure, {S.M Fisher}, A.~Frohner, C.~Grandi, {P.Z Kunszt}, A.~Krenek,
+  O.~Mulmo, F.~Pacini, F.~Prelz, J.~White, M.~Barroso, P.~Buncic, F.~Hemmer,
+  A.~Di Meglio, and A.~Edlund.
+\newblock {Programming the Grid with gLite}.
+\newblock {\em Computational Methods in Science and Technology}, 12, 1:33--45,
+  2006.
+
+\bibitem{Foster12}
+I.~Foster.
+\newblock {What is the grid? A three point checklist, GRIDToday}, 2011.
+
+\bibitem{Dean13}
+J.~Dean and S.~Ghemawat.
+\newblock {Mapreduce: Simplified data processing on large clusters}.
+\newblock {\em Communications of the ACM}, 51, 1:107--113, 2008.
+
+\bibitem{Shvachko14}
+K.~Shvachko, H.~Kuang, S.~Radia, and R.~Chansler.
+\newblock {The Hadoop Distributed File System}.
+\newblock {\em IEEE 26th Symposium on Mass Storage Systems and Technologies
+  (MSST)}, pages 1--10, 2010.
+
+\bibitem{Ghemawat15}
+S.~Ghemawat, H.~Gobioff, and {S.T Leung}.
+\newblock {The google file system}.
+\newblock {\em ACM SIGOPS Operating Systems Review}, 37, 5:29--43, 2003.
+
+\bibitem{Flume16}
+{Apache Flume project}.
+\newblock \url{https://flume.apache.org}, 2012.
+\newblock [Online; accessed 02-01-2016].
+
+\bibitem{Dirg17}
+K.~Skaburska.
+\newblock {The Dirq project}.
+\newblock \url{http://dirq.readthedocs.org}, 2013.
+\newblock [Online; accessed 27-12-2015].
+
+\bibitem{Hadoop18}
+T.~White.
+\newblock {\em {Hadoop: The Definitive Guide, 3rd ed.}}
+\newblock Yahoo press, 2012.
+
+\bibitem{Gardner19}
+R.~Gardner, S.~Campana, G.~Duckeck, J.~Elmsheuser, A.~Hanushevsky, {F.G
+  Hönig}, J.~Iven, F.~Legger, I.~Vukotic, W.~Yang, and the
+  Atlas~Collaboration.
+\newblock {Data federation strategies for ATLAS using XRootD}.
+\newblock {\em Journal of Physics: Conference Series}, 513(4):042049, 2014.
+
+\bibitem{wlcg}
+{Bird, I et all.}
+\newblock {Update of the Computing Models of the WLCG and the LHC Experiments}.
+\newblock Technical Report CERN-LHCC-2014-014. LCG-TDR-002, CERN, Geneva, Apr
+  2014.
+
+\bibitem{Andreeva2009}
+Julia Andreeva, Benjamin Gaidioz, Juha Herrala, Gerhild Maier, Ricardo Rocha,
+  Pablo Saiz, and Irina Sidorova.
+\newblock {Dashboard for the LHC experiments}.
+\newblock In {\em International Symposium on Grid Computing, ISGC 2007}, pages
+  131--139, 2009.
+
+\bibitem{lambda}
+Nathan Marz and James Warren.
+\newblock {\em Big Data. Principles and best practices of scalable realtime
+  data systems.}
+\newblock Manning Publications, 2015.
+
+\bibitem{mrgoogle}
+Jeffrey Dean and Sanjay Ghemawat.
+\newblock In {\em MapReduce: simplified data processing on large clusters}.
+  OSDI’04: Proceedings of the 6th conference on symposium on operating
+  systems design and implementation - USENIX Association, 2004.
+
+\bibitem{spark}
+{Zaharia, Matei et all}.
+\newblock In {\em Resilient Distributed Datasets: A Fault-tolerant Abstraction
+  for In-memory Cluster Computing}, NSDI'12, pages 2--2, 2012.
+
+\bibitem{esper}
+Thomas Bernhardt.
+\newblock The {E}sper project, http://www.espertech.com/esper.
 
 \end{thebibliography}

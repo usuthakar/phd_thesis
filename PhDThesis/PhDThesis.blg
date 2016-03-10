@@ -1,10 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: PhDThesis.aux
 The style file: unsrt.bst
 Database file #1: PhDThesis.bib
-Warning--I didn't find a database entry for "wlcg"
-Warning--I didn't find a database entry for "Andreeva2009"
-Warning--I didn't find a database entry for "lambda"
-Warning--I didn't find a database entry for "mrgoogle"
-Warning--I didn't find a database entry for "spark"
-Warning--I didn't find a database entry for "esper"
-(There were 6 warnings)
+You're missing a field name---line 460 of file PhDThesis.bib
+ : 
+ : %% url = {http://dl.acm.org/citation.cfm?id=2228298.2228301},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty title in mrgoogle
+Warning--empty title in spark
+Warning--empty note in esper
+(There was 1 error message)
